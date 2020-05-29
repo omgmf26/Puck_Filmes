@@ -1,7 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
 .App {
   background-color: #2C1C13;
   min-height: 100vh;
   text-align: center;
+
+ --background-item-color: ;
+ --destaque-color: #FF4414;
+ --primary-color: #33B4FF;
+ --estrela-color: #fff12f;
+
 }
 
+.content{
+  display: flex;
+}

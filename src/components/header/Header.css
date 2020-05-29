@@ -3,11 +3,11 @@
     padding: 15px 45px;
     justify-content: space-between;
   }
-  
+
   .Logo{
     background: #33B4FF;
     border-radius: 10px;
-    font-family: Roboto, sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 25px;
     line-height: 40px;
     text-align: center;
@@ -21,7 +21,7 @@
     border: 10;
     width: 400px;
     margin: 0 10px;
-    font-family: Roboto;
+    font-family: 'Roboto';
     font-size: 15px;
     background-color: #B86D56;
   }
