@@ -1,26 +1,29 @@
 .card-filmes{
     background-color: #000000;
     color: #ffffff;
-    max-width: 215px;
+    max-width: 220px;
     border-radius: 10px;
     font-family: 'Roboto' , sans-serif;
-    margin: 25px;
-    margin-top: 50px;
+    margin: 49px;
+    margin-top: 60px;
+    
+    
+    
 }
 
 .poster-image{
-    background-image: url('https://i.ebayimg.com/images/g/~goAAOSwsDZcVBL~/s-l300.jpg');
-    background-size: 177px;
+    background-image: url('https://lh3.googleusercontent.com/RuJhT-qa1vnoFg3lfUZkOR3HQ4OZTjS3Mmz5khe_a-N2CTkb1xQO3tskgRGImB8HB4U');
     border-radius: 10px 10px 0 0;
+    background-size: 220px;
+    background-position-y: -15px;
     background-repeat: no-repeat;
-    padding: 130px ;
-    
-
+    padding: 100px;
+    padding-bottom: 170px;
 }
 
  .fav-btn{
      position: absolute;
-     left: 27px; 
+     left: 50px; 
      padding: 5px;
     
  }
@@ -42,7 +45,7 @@
 
  .especificacao{
     text-align: center;
-    padding: 10px;
+    padding: 13px;
   
  }
 

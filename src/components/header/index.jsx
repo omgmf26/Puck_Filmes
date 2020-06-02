@@ -7,6 +7,7 @@ export default function Header (props){
         <div className="Header" >
         <div className="Logo">Puck Filmes</div>
         <input type="text" name="search" id="search"></input>
+        <span className= "hr"></span>
         </div>
     )
 

@@ -1,28 +1,40 @@
-.Header{
-    display: flex;
-    padding: 15px 45px;
-    justify-content: space-between;
-  }
 
-  .Logo{
-    background: #33B4FF;
-    border-radius: 10px;
-    font-family: 'Roboto', sans-serif;
-    font-size: 25px;
-    line-height: 40px;
-    text-align: center;
-    width: 210px;
-    
-  }
+.Header{
+  display: flex;
+  padding: 15px 45px;
+  justify-content: space-between;
+  background-color: black;
+}
+
+.Logo{
+  background: #33B4FF;
+  border-radius: 10px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 25px;
+  line-height: 40px;
+  text-align: center;
+  width: 210px;
   
-  .Header input{
-  
-    border-radius: 10px;
-    border: 10;
-    width: 400px;
-    margin: 0 10px;
-    font-family: 'Roboto';
-    font-size: 15px;
-    background-color: #B86D56;
-  }
-  
+}
+
+.Header input{
+
+  border-radius: 10px;
+  border: 10;
+  width: 400px;
+  margin: 0 10px;
+  font-family: 'Roboto';
+  font-size: 15px;
+  background-color: #B86D56;
+}
+
+.hr {
+  position: absolute;
+  width: 1277px;
+  height: 0px;
+  left: 0px;
+  top: 70px;
+
+  border: 1px solid #FF4414;
+  transform: rotate(0.04deg);
+}
