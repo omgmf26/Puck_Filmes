@@ -38,3 +38,11 @@
   border: 1px solid #FF4414;
   transform: rotate(0.04deg);
 }
+
+.pesquisa {
+  position: absolute;
+  color: black;
+  margin-left: 780px;
+  margin-top: 9px;
+  
+}
