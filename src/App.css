@@ -16,3 +16,30 @@
 .content{
   display: flex;
 }
+
+.nav-formatacao{
+  display: flex;
+  justify-content: space-between;
+ 
+}
+
+.nav-link{
+  background-color: var(--destaque-color);
+  color: #000000;
+  border-radius: 10px;
+  display: inline-block;
+  margin-left: 1px;
+  margin-top: 25px;
+  width: 200px;
+  padding: 6px;
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+  font-size: 25px;
+  opacity: .4;
+  
+}
+
+
+.nav-link.active {
+  opacity: 1;
+}
