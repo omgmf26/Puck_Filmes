@@ -17,12 +17,12 @@ function App() {
      <Header/>
      <BrowserRouter>
      <div className="nav-formatacao">
-     <NavLink to="/favoritos" className="nav-link">Favoritos</NavLink>
-     <NavLink to ="/lancamentos" className="nav-link">Lançamentos</NavLink>
-     <NavLink to ="/acao" className="nav-link">Ação</NavLink>
-     <NavLink to ="/comedia" className="nav-link">Comédia</NavLink>
-     <NavLink to ="/animacao" className="nav-link">Animação</NavLink>
-     <NavLink to ="/romance" className="nav-link">Romance</NavLink>
+     <NavLink to="/favoritos" className="nav-link1">Favoritos</NavLink>
+     <NavLink to ="/lancamentos" className="nav-link2">Lançamentos</NavLink>
+     <NavLink to ="/acao" className="nav-link3">Ação</NavLink>
+     <NavLink to ="/comedia" className="nav-link4">Comédia</NavLink>
+     <NavLink to ="/animacao" className="nav-link5">Animação</NavLink>
+     <NavLink to ="/romance" className="nav-link6">Romance</NavLink>
      </div>
       <Switch>
       <Route exact path="/" component={Lancamentos}/>
