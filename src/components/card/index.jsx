@@ -11,7 +11,7 @@ const imgUrl = "https://image.tmdb.org/t/p/w1280/"
                 <span className="material-icons fav-btn">favorite_border</span>
                 <div 
                 className="poster-image" 
-                style={{ backgroundImage: `url( ${imgUrl} ${filme.poster_path} )` }}
+                style={{ backgroundImage: `url( ${imgUrl}${filme.poster_path} )` }}
                 >
                 </div>
                 <div className="especificacao">

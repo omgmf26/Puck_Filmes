@@ -15,6 +15,7 @@
 
 .content{
   display: flex;
+  flex-wrap: wrap;
 }
 
 .nav-formatacao{
