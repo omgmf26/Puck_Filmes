@@ -1,4 +1,6 @@
 .card-filmes{
+    display: flex;
+    flex-direction: column;
     background-color: #000000;
     color: #ffffff;
     max-width: 220px;
@@ -6,13 +8,12 @@
     font-family: 'Roboto' , sans-serif;
     margin: 49px;
     margin-top: 60px;
-    
-    
+
     
 }
 
 .poster-image{
-    background-image: url('https://lh3.googleusercontent.com/RuJhT-qa1vnoFg3lfUZkOR3HQ4OZTjS3Mmz5khe_a-N2CTkb1xQO3tskgRGImB8HB4U');
+    background-image: url ("https://image.tmdb.org/t/p/w1280/");
     border-radius: 10px 10px 0 0;
     background-size: 220px;
     background-position-y: -15px;
