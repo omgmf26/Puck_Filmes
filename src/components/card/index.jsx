@@ -6,6 +6,7 @@ import './Card.css'
 export default function Card({filme}){
 const nota = filme.vote_average.toFixed(1)
 const imgUrl = "https://image.tmdb.org/t/p/w1280/"
+
     return(
         <div className="card-filmes">
             <div>
@@ -16,7 +17,7 @@ const imgUrl = "https://image.tmdb.org/t/p/w1280/"
                 >
                 </div>
                 <div className="especificacao">
-                    <h4>{filme.title}</h4>
+                    <h3>{filme.title}</h3>
                     <span className="material-icons">star</span>
                     {nota}
                     </div>

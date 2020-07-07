@@ -18,7 +18,7 @@
     background-size: 220px;
     background-position-y: -15px;
     background-repeat: no-repeat;
-    padding: 100px;
+    padding: 150px 100px;
     padding-bottom: 170px;
 }
 
@@ -35,7 +35,6 @@
      opacity: .9;
      border-radius: 10px;
      display: flex;
-     margin: 2px;
      justify-content: center;
      padding: 5px;
      align-items: center;
@@ -47,12 +46,14 @@
  .especificacao{
     text-align: center;
     padding: 12px;
+    flex:1;
   
  }
 
- .especificacao h4{
+ .especificacao h3{
      opacity: .9;
      margin: 2px;
+     
      
  }
 

@@ -15,16 +15,10 @@ function Header (props){
     return(
         <div className="Header" >
         <div className="Logo">Puck Filmes</div>
-        <div className="field-search">
+        <div className="">
             <form onSubmit ={buscar}>
+            <input type="text" name="query" id="query" onChange={ e => setSearch (e.target.value) }></input>
             <button type="submit">procurar</button>
-            <span className="material-icons pesquisa">search</span>
-            <input 
-            type="text" 
-            name="query" 
-            id="query" 
-            onChange={ e => setSearch (e.target.value) }>
-            </input>
             </form>
         </div>
         <span className= "hr"></span>
