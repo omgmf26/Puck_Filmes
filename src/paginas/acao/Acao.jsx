@@ -1,4 +1,4 @@
-import React, {Fragment , useEffect, useState} from 'react'
+import React, {useEffect, useState} from 'react'
 import './acao.css';
 import axios from 'axios'
 
@@ -8,7 +8,7 @@ export default function Acao () {
 
     const[filmes, setFilmes] = useState([])
 
-    useEffect(() => load(), [])
+    useEffect(() => {load() }, [])
     
     async function load(){
         try{

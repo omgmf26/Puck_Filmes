@@ -1,4 +1,4 @@
-import React, {Fragment , useEffect, useState} from 'react'
+import React, { useEffect, useState} from 'react'
 import axios from 'axios'
 
 import Card from "../../components/card"
@@ -7,7 +7,7 @@ export default function Lancamentos () {
 
     const[filmes, setFilmes] = useState([])
 
-    useEffect(() => load(), [])
+    useEffect(() => {load() }, [])
     
     async function load(){
         try{

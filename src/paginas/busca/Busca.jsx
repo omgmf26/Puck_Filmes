@@ -1,4 +1,4 @@
-import React, {Fragment , useEffect, useState} from 'react'
+import React, { useEffect, useState} from 'react'
 import axios from 'axios'
 
 import Card from "../../components/card"
@@ -10,7 +10,7 @@ export default function Busca (props) {
                     props.location.search +
                     "&api_key=3fee54059b5bf82c32ec182782ed312e&language=pt-BR"
 
-    useEffect(() => load(), [props.location.search])
+    useEffect(() => {load()}, [props.location.search])
     
     async function load(){
         try{

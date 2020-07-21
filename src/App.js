@@ -24,7 +24,7 @@ function App() {
      <NavLink to ="/comedia" className="nav-link">Comédia</NavLink>
      <NavLink to ="/animacao" className="nav-link">Animação</NavLink>
      <NavLink to ="/romance" className="nav-link">Romance</NavLink>
-     <NavLink to ="/busca" className="nav-link">Busca</NavLink>
+     
      </div>
       <Switch>
       <Route exact path="/" component={Lancamentos}/>
